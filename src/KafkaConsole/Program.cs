@@ -20,12 +20,12 @@ namespace KafkaConsole
 
         static void Main(string[] args)
         {
-            string topicName = "kafkatopic";
+            string topicName = "ninjatopic";
             int partitionId = 0;
             int correlationId = 0;
 
 
-            KafkaBusConnector busConnector = new KafkaBusConnector("192.168.0.105", 9092, "KafkaConsole");
+            KafkaBusConnector busConnector = new KafkaBusConnector("localhost", 9092, "KafkaConsole");
 
             IKafkaMessageConsumer consumer = new MessageConsumer();
             consumer.Start(busConnector, topicName, partitionId, 4, DumpMessage);

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Client", "Kafka.Client\Kafka.Client.csproj", "{BC9E0741-B8EE-4745-9F59-6B0191B07B2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsole", "KafkaConsole\KafkaConsole.csproj", "{CE412502-067E-4B5F-AE7F-F8F742BF8B62}"
